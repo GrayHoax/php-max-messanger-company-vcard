@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: max-vcard-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      # Mount content file for easy editing without rebuilding
+      - ./config/content.yaml:/app/config/content.yaml:ro
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

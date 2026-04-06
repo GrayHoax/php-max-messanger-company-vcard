@@ -1,0 +1,43 @@
+{
+    "name": "grayhoax/max-vcard-bot",
+    "description": "Бот-визитка компании для мессенджера Max на базе фреймворка php-max-bot",
+    "type": "project",
+    "license": "proprietary",
+    "keywords": [
+        "max", "max messenger", "maxbot", "bot", "vcard", "company", "php", "chatbot"
+    ],
+    "authors": [
+        {
+            "name": "GrayHoax",
+            "homepage": "https://github.com/GrayHoax"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "grayhoax/phpmaxbot": "^0.18",
+        "symfony/yaml": "^5.0|^6.0|^7.0",
+        "vlucas/phpdotenv": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "VCardBot\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "VCardBot\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "start": "php bot.php"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
