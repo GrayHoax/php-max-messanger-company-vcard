@@ -22,6 +22,18 @@
 
 ---
 
+## Отображение диалогов у пользователя
+
+![Пример главного экрана](https://github.com/GrayHoax/php-max-messanger-company-vcard/raw/master/assets/demo1.png)
+
+![Пример раздела Справка](https://github.com/GrayHoax/php-max-messanger-company-vcard/raw/master/assets/demo2.png)
+
+![Пример подачи заявки](https://github.com/GrayHoax/php-max-messanger-company-vcard/raw/master/assets/demo3.png)
+
+![Пример раздела Услуг](https://github.com/GrayHoax/php-max-messanger-company-vcard/raw/master/assets/demo4.png)
+
+![Пример раздела Контакты](https://github.com/GrayHoax/php-max-messanger-company-vcard/raw/master/assets/demo5.png)
+
 ## Быстрый старт
 
 ### Требования
